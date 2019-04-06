@@ -1,0 +1,19 @@
+Assigning 
+// 2 D array same size as original
+// with optional default value
+vector<vector<int>> temp (original.size(), vector<int>(board[0].size(), -1);
+now you can use temp[i][j];
+
+// if size not specified then
+vector<vector<int>> temp;
+
+vector<int> row;
+row.push_back(item);
+
+temp.push_back(row);
+
+// resize 
+row.resize(n)
+
+// copying back to original
+original.assign(temp.begin(), temp.end())

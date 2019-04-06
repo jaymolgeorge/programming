@@ -1,0 +1,13 @@
+C++ queue operations
+
+queue<int> q;
+// first element in the queue
+q.front();
+
+// push element into the queue
+q.push(ele);
+
+// remove element
+q.pop();
+
+
